@@ -59,7 +59,7 @@ body{
 
 h1{
     font-family: 'Chelsea Market', cursive;
-    font-size:5rem;
+    font-size:5.5rem;
 }
 
 section{
@@ -131,12 +131,21 @@ header{
 }
 
 .right{
-    padding:4%;
+    padding:2%;
     line-height:2;
     float:right;
     position:relative;
+    margin-left:20%;
+    font-size:2rem;
 
 }
+
+.right p{
+    font-size:2rem;
+    margin-left:10%;
+    margin-right:10%;
+}
+
 /*Mid Section Styles*/
 .midtext{
     margin:auto;
@@ -149,10 +158,13 @@ header{
 
 .mid .midtext{
     background-color:#DDB9A3;
-    width:80%;
+    width:90%;
     height:auto;
     padding:5%;
     border:none;
+    line-height:1.1;
+    color:white;
+    font-size:2.5rem;
 }
 
 
@@ -199,6 +211,5 @@ footer{
     padding:0%;
     background-color:#F9E7DC;
     height:180px;
-    
     
 }
