@@ -107,6 +107,10 @@ header{
 
 .top{
     position:relative;
+    padding:1%;
+    margin-top:-10%;
+    margin-left:5%;
+    margin-right:5%;
 }
 
 
@@ -194,5 +198,7 @@ span{
 footer{
     padding:0%;
     background-color:#F9E7DC;
-    height:450px;
+    height:180px;
+    
+    
 }
