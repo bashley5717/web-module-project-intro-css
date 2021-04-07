@@ -37,12 +37,12 @@ blockquote, q {
 *{
     box-sizing:border-box;
     max-width:100%;
-    border:1px solid grey;
 
 }
 
 
 /*General Styles*/
+
 
 html{
     font-size:62.5%;
@@ -96,7 +96,7 @@ nav a{
 
 .yellow{
     background-color:#FFCD69;
-    margin:10%;
+    margin-right:10%;
 }
 
 header{
@@ -121,28 +121,36 @@ header{
     display:inline;
     border-radius:50%;
     width:60%;
-   
+    float:left;
+
     
 }
 
 .right{
     padding:4%;
     line-height:2;
-    position:absolute;
-    bottom:20%;
+    float:right;
+    position:relative;
 
 }
 /*Mid Section Styles*/
-.mid{
-    width:20%;
-    padding:5%;
-    background-color:#DDB9A3;
-    border:none;
-    justify-content:center;
-    align:center;
-    text-decoration:none;
-
+.midtext{
+    margin:auto;
+    width:80%;
+    height:auto;
+    size:1.8rem;
+    
 }
+    
+
+.mid .midtext{
+    background-color:#DDB9A3;
+    width:80%;
+    height:auto;
+    padding:5%;
+    border:none;
+}
+
 
 span{
     width:20% auto;
@@ -153,8 +161,11 @@ span{
 }
 
 .textsquares{
-    padding:10px;
-    display:inline;
+    padding:25px;
+    display:inline-block;
+    width:18%;
+    height:auto;
+    font-size:1.5rem;
     
 }
 
@@ -170,11 +181,18 @@ span{
     padding:10px;
 }
 
-.bottom-img img{
-    display:flex;
+.bottom-image{
+   background-image:url("assets/footer_img.jpg");
+   height:55rem;
+   background-size:cover;
+   
 }
 
+
+/*Footer and Bottom Section*/
+
 footer{
+    padding:0%;
     background-color:#F9E7DC;
     height:450px;
 }
