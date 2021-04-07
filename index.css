@@ -99,6 +99,9 @@ nav a{
     margin:10%;
 }
 
+header{
+    height:450px;
+}
 
 /*Top section Styles*/
 
@@ -135,7 +138,7 @@ nav a{
     padding:5%;
     background-color:#DDB9A3;
     border:none;
-    justify-content:relative;
+    justify-content:center;
     align:center;
     text-decoration:none;
 
@@ -145,12 +148,33 @@ span{
     width:20% auto;
     padding:5%;
     border:none;
-    
+
 
 }
 
+.textsquares{
+    padding:10px;
+    display:inline;
+    
+}
 
-.bottom-image{
-    background-image:inherit;
+.busimg img{
+    max-width:10%;
+    max-height:auto;
+    padding:10px;
+}  
 
+.fireimg img{
+    max-width:10%;
+    max-height:auto;
+    padding:10px;
+}
+
+.bottom-img img{
+    display:flex;
+}
+
+footer{
+    background-color:#F9E7DC;
+    height:450px;
 }
