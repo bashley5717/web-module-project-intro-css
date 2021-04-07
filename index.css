@@ -40,28 +40,38 @@ blockquote, q {
     border:1px solid grey;
 
 }
+
+
 /*General Styles*/
+
 html{
     font-size:62.5%;
 
 }
+
 body{
     font-size:1.6rem;
     line-height:1.5;
     font-family: 'Roboto Mono', monospace;
 
 }
+
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size:5rem;
 }
+
 section{
     padding:4% 0;
 }
+
+
 /*header section styles*/
+
 nav{
     padding:2% 0;
 }
+
 nav a{
     display:inline-block;
     padding:1% 0;
@@ -72,22 +82,29 @@ nav a{
     text-decoration:none;
     
 }
+
 .orange{
-    background-color:FF743E;
+    background-color:#FF764E;
     margin-left:10%;
 }
+
 .blue{
-    background-color:
+    background-color:#5ED3EB;
     margin:0 24%;
 }
+
 .yellow{
-    background-color:
+    background-color:#FFCD69;
     margin:10%;
 }
+
+
 /*Top section Styles*/
+
 .top{
     position:relative;
 }
+
 
 .top div{
     display:inline-block;
@@ -95,14 +112,36 @@ nav a{
     margin:0 2%;
     text-align:center;
 }
+
 .left img{
     border-radius:50%;
     width:60%;
 }
+
 .right{
     padding:4%;
     line-height:2;
     position:absolute;
     bottom:20%;
+
+}
+/*Mid Section Styles*/
+.mid{
+    width:20%;
+    padding:5%;
+    background-color:#DDB9A3;
+    border:none;
+    justify-content:space-around;
+    align:center;
+
+
+
+
+}
+
+
+
+.bottom-image{
+    background-image:inherit;
 
 }
