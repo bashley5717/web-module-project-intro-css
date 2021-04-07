@@ -53,6 +53,7 @@ body{
     font-size:1.6rem;
     line-height:1.5;
     font-family: 'Roboto Mono', monospace;
+    text-align:center;
 
 }
 
@@ -114,8 +115,11 @@ nav a{
 }
 
 .left img{
+    display:inline;
     border-radius:50%;
     width:60%;
+   
+    
 }
 
 .right{
@@ -131,14 +135,19 @@ nav a{
     padding:5%;
     background-color:#DDB9A3;
     border:none;
-    justify-content:space-around;
+    justify-content:relative;
     align:center;
-
-
-
+    text-decoration:none;
 
 }
 
+span{
+    width:20% auto;
+    padding:5%;
+    border:none;
+    
+
+}
 
 
 .bottom-image{
