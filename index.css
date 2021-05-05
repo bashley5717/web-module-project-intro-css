@@ -51,7 +51,6 @@ nav{
     width:100%;
     top:0;
     z-index:999;
-    padding:5rem;
 }
 .blue{
     background-color:#5ED3EB;
@@ -62,6 +61,26 @@ nav{
 .yellow{
     background-color:#FFCD69; 
 }
-.topnav{
-    width:15%;
+nav a{
+    display:inline-block;
+    padding:1% 0;
+    border-radius:10px;
+    width:10%;
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+}
+.headerImg img{
+    border-radius:50%;
+    width:25%;
+}
+.headerImg{
+    padding-left:10%;
+    padding-top:4%;
+}
+.rightText{
+    padding:4%;
+    line-height:2;
+    bottom:20%;
+
 }
