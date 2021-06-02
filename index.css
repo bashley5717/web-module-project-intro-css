@@ -120,10 +120,39 @@ blockquote, q {
     font-size:1.8rem;
     margin: 0 25%;
 }
+
 /*Mid Section Styling*/
-.midtext{
-    margin:0 5%;
+.midtext div{
+    margin:0% 5%;
     background-color:#DDB9A3;
+    padding:1% 2%;
+}
+.midtext p{
+    margin:1% 2%;
+    color:white;
+    font-size:1.8rem;
+}
+.imageblocks .firstimg{
+    padding-left:35%;
+
+}
+.firstimg p{
+    margin-right:65%;
+    text-align:center;
+    margin-top:1%;
+}
+.firstimg img{
+    width:27%;
+    margin-left:3%;
+}
+.secondimg img{
+    width:19%;
+    margin-left:35%;
+}
+.secondimg p{
+  text-align:center; 
+  margin-left:33%;
+  margin-right:43%;
 }
 
 
