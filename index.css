@@ -40,7 +40,6 @@ blockquote, q {
         padding:0;
         margin:0;
         max-width:100%;
-        border:1px solid grey;
     }
 
     /*General Styles*/
@@ -67,12 +66,12 @@ blockquote, q {
     }
  /*Header Section Styles*/
     nav{
-        padding:2% 0;
+        padding:3% 0;
     }
     nav a{
         display:inline-block;
         padding:0.5% 0;
-        width:10%;
+        width:9%;
         border-radius:10px;
         text-align:center;
         color:#fff;
