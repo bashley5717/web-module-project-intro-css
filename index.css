@@ -138,6 +138,10 @@ blockquote, q {
     padding-left:35%;
 
 }
+.imageblocks p{
+    font-size:2rem;
+    line-height:1.2;
+}
 .firstimg p{
     margin-right:65%;
     text-align:center;
